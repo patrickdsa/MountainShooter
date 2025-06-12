@@ -12,7 +12,7 @@ class Game:
         self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGHT))
 
     def run(self):
-        pygame.mixer_music.load('./asset/')
+        pygame.mixer_music.load('./asset/Menu.mp3')
         pygame.mixer_music.play(-1)
 
 
@@ -27,4 +27,3 @@ class Game:
            #         pygame.quit()  # Close Window
            #         quit()  # end pygame
 
-        MINUTAGEM 41MIN AULA
